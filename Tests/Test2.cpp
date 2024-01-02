@@ -18,24 +18,12 @@
 using namespace std;
 
 // check enrollment system (the only & comprehensive test...)
-TEST(Test1, TestStore1)
+TEST(Test2, TestStore2)
 {
-	cout << "Start testStore1" << endl;
-	// Should do something more, but lets just read files
-	// since each implementation will
-	string cfile = "testcommands-1.txt";
-	stringstream out;
-	ifstream fs(cfile);
-	assert(fs.is_open());
-	char commandType;
-	string discard;
-	while (fs >> commandType)
-	{
-		out << commandType;
-		getline(fs, discard);
-	}
-	fs.close();
-	string result = "IHHBRIBBIH";
-	assert(out.str() == result);
-	cout << "End testStore1" << endl;
+	cout << "Start testStore2" << endl;
+	cout << "End testStore2" << endl;
+
+	//maybe data4commands??
+
+
 }
