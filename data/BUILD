@@ -1,1 +1,1 @@
-exports_files(["data-enrollments.txt","data-courses.txt","data-students.txt"])
+exports_files(["data4commands.txt","data4customers.txt","data4movies.txt", "testcommands-1.txt"])
