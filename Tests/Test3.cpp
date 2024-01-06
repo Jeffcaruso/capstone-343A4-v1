@@ -6,10 +6,9 @@
 //==========================================================n==================
 
 #include <gtest/gtest.h>
-#include "applib/enrollmentsystem.h"
-#include "applib/course.h"
-#include "applib/student.h"
-#include "applib/university.h"
+
+//TODO (Student) add your classes following the format of the include below. (note, do not use <> for your classes)
+#include "applib/<yourclass>.h"
 
 #include <iostream>
 #include <sstream>
@@ -20,11 +19,6 @@ using namespace std;
 // check enrollment system (the only & comprehensive test...)
 TEST(Test3, TestStore3)
 {
-	cout << "=====================================" << endl;
-	cout << "Start testStoreFinal" << endl;
-	cout << "End testStoreFinal" << endl;
-	cout << "=====================================" << endl;
-
-	//maybe optional student testing?
+	//write your own gTests here...
 
 }

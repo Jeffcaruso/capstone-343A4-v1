@@ -6,10 +6,10 @@
 //==========================================================n==================
 
 #include <gtest/gtest.h>
-#include "applib/enrollmentsystem.h"
-#include "applib/course.h"
-#include "applib/student.h"
-#include "applib/university.h"
+
+//TODO (Student) add your classes following the format of the include below. (note, do not use <> for your classes)
+#include "applib/<yourclass>.h"
+
 
 #include <iostream>
 #include <sstream>
@@ -20,22 +20,26 @@ using namespace std;
 // check enrollment system (the only & comprehensive test...)
 TEST(Test1, TestStore1)
 {
-	cout << "Start testStore1" << endl;
-	// Should do something more, but lets just read files
-	// since each implementation will
-	string cfile = "testcommands-1.txt";
-	stringstream out;
-	ifstream fs(cfile);
-	assert(fs.is_open());
-	char commandType;
-	string discard;
-	while (fs >> commandType)
-	{
-		out << commandType;
-		getline(fs, discard);
-	}
-	fs.close();
-	string result = "IHHBRIBBIH";
-	assert(out.str() == result);
-	cout << "End testStore1" << endl;
+	// cout << "Start testStore1" << endl;
+	// // Should do something more, but lets just read files
+	// // since each implementation will
+	// string cfile = "testcommands-1.txt";
+	// stringstream out;
+	// ifstream fs(cfile);
+	// assert(fs.is_open());
+	// char commandType;
+	// string discard;
+	// while (fs >> commandType)
+	// {
+	// 	out << commandType;
+	// 	getline(fs, discard);
+	// }
+	// fs.close();
+	// string result = "IHHBRIBBIH";
+	// assert(out.str() == result);
+	// cout << "End testStore1" << endl;
+
+	//write your own gTests here...
+	
+
 }
