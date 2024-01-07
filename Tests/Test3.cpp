@@ -16,9 +16,9 @@
 
 using namespace std;
 
-// check enrollment system (the only & comprehensive test...)
 TEST(Test3, TestStore3)
 {
-	//write your own gTests here...
+	//TODO (Student) write your own gTests here...
 
+	//maybe your own test text file?
 }

@@ -16,12 +16,11 @@
 
 using namespace std;
 
-// check enrollment system (the only & comprehensive test...)
 TEST(Test2, TestStore2)
 {
-	//write your own gTests here...
+	//TODO (Student) write your own gTests here...
 
-	//maybe data4commands??
+	//maybe testcommands-1.txt?
 
 
 }

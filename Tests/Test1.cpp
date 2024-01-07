@@ -17,7 +17,7 @@
 
 using namespace std;
 
-// check enrollment system (the only & comprehensive test...)
+
 TEST(Test1, TestStore1)
 {
 	// cout << "Start testStore1" << endl;
@@ -39,7 +39,9 @@ TEST(Test1, TestStore1)
 	// assert(out.str() == result);
 	// cout << "End testStore1" << endl;
 
-	//write your own gTests here...
-	
+	//TODO (Student) write your own gTests here...
+
+	//maybe data4commands.txt?
+
 
 }
