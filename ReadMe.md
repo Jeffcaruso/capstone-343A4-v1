@@ -12,16 +12,20 @@
  - [gTest Docs](https://google.github.io/googletest/)
 
 ### applib related tips
- - Coming soon
+ - Build file should be ok (no need for student to edit)
+ - Put all your classes (code files) in app lib folder
+ - use ".h", ".cpp" for your code files
 
 ### data related tips
- - Coming soon
+ - To add another data file, add the data.txt to the data folder
+ - Then, add its name to export files in build file like all the other text files
 
 ### tests related tips
- - Coming soon
+ - Tests build file should be ok (no need for student to edit)
+ - the "TODO (Student)"s in the Test starter files provided explain the necessary hints
 
-
-
+### building.cpp related tips
+ - the "TODO (Student)"s explain the necessary hints
 
 ## reference:
  - https://github.com/pisan343/ass4-movie-starter
