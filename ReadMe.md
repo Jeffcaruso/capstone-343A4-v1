@@ -25,7 +25,8 @@
  - the "TODO (Student)"s in the Test starter files provided explain the necessary hints
 
 ### building.cpp related tips
- - the "TODO (Student)"s explain the necessary hints
+ - The goal here is to make objects of student classes, and call at least some of their methods this will make finding build errors easier (and make it so the build step fails and doesn't bother running the tests which would also fail, saving compute) 
+ - the "TODO (Student)"s explain what to do
 
 ## reference:
  - https://github.com/pisan343/ass4-movie-starter
