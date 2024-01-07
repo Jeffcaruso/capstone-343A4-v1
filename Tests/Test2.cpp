@@ -8,7 +8,7 @@
 #include <gtest/gtest.h>
 
 //TODO (Student) add your classes following the format of the include below. (note, do not use <> for your classes)
-#include "applib/<yourclass>.h"
+//#include "applib/<yourclass>.h"
 
 #include <iostream>
 #include <sstream>
@@ -22,5 +22,8 @@ TEST(Test2, TestStore2)
 
 	//maybe testcommands-1.txt?
 
+
+	//a gTest that will fail
+	EXPECT_TRUE(1 == 2);
 
 }
